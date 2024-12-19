@@ -1,0 +1,136 @@
+body{
+
+    background-color: #f7ecde;
+}
+
+
+.head{
+    height: 70px;
+    /* background-color: #8a9e23; */
+    position: relative;
+   
+}
+
+
+
+
+.item{
+   background-color:tomato;
+   width: 25%;
+   height: 35px;
+   position: absolute;
+   top: 75%;
+   left: 50%;
+   transform: translate(-50% ,-20px);
+   transition: all 1s;
+   z-index: 0;
+   
+   
+  
+}
+
+h1{
+    font-size: 45px;
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+}
+.hname{
+   /* background-color: #8a9e23;   */
+    height: 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+   
+   
+}
+
+
+.item:hover {
+
+    background-color: #fec260;
+    position: absolute;
+    top: 40%;
+   
+    
+    
+     
+}
+
+
+
+.input{
+    width: 85%;
+
+    border-bottom: 2px dotted black;
+    border-top: 2px dotted black;
+    padding-top: 40px; 
+    padding-bottom: 30px; 
+    
+}
+
+
+
+
+.info-input{
+ 
+    margin: auto;
+    margin-top: 100px;
+   
+}
+
+
+.input1 input{
+    width: 100%;
+   
+    border: 1px solid   rgba(128, 128, 128, 0.411);
+    border-radius: 5px;
+}
+
+.input2 input{
+    width: 100%;
+    border: 1px solid   rgba(128, 128, 128, 0.411);
+    border-radius: 5px;
+}
+
+
+
+
+
+.icon span{
+    font-family: "Righteous", cursive;
+    font-size: 23px;
+    color: #a03315;
+    
+
+}
+
+.icon .fa-bookmark{
+    color:  #eead35;
+}
+
+
+
+
+.submit button{
+    background-color:#a03315;
+
+}
+
+.foot{
+    width: 85%;
+}
+
+
+
+
+.info-footer .bt1{
+    background-color:#8a9e23 ;
+}
+
+.info-footer .bt2{
+    background-color: #ba081d;
+}
+
+
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="images/BookMark.webp" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0">
+    <title>Assignment Bookmark</title>
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+    <section class="head">
+            
+        <h1 class="text-center hname ">Bookmarker</h1>
+        <div class="item">
+        
+        </div>
+    
+    </section>
+
+
+    <section class="info-input mt-5">
+        <div class="container input">
+            <div class="icon text-center"> <i class="fa-solid fa-bookmark text-center fs-4"> 
+                 <span>Bookmark your favorite sites</span>  <i class="fa-solid fa-bookmark fs-4"></i> </i></div>
+
+           
+            <div class="input1 mt-5">
+                <i class="fa-solid fa-book-bookmark"> </i> <span class="fw-bold">Site Name</span> 
+                <input  oninput="validateSite(this)" class="  form-control  " type="text" id="inputWebsiteName" name="inputWebsiteName" placeholder="Bookmark Name"> 
+                <div class="alert alert-danger p-2 mt-1 d-none">Site Name should start.. 3-12 Characters and 0-4 Numbers  </div>
+        </div>
+
+
+
+
+            <div class="input2 mt-4">
+                <i class="fa-solid fa-link "></i> <span class="fw-bold">Site URL</span> 
+                <input oninput="validateSite(this)" class=" form-control" type ="text" id="inputWebsiteUrl" name="inputWebsiteUrl" placeholder="Website URL">
+                <div class="alert alert-danger p-2 mt-1 d-none ">Site Url should start.. http:// 3-10 Characters and Numbers should end .com or .net </div>
+            </div>
+
+
+
+                <div class="submit mt-4 text-center ">
+                    <button onclick="submit(this)" id="btn" class="px-5 py-2 rounded-2 border-0 text-white">Submit</button>
+                </div>
+            
+        </div>
+        
+    </section>
+    
+
+    <section class="footer mt-4">
+        <div class="container  foot bg-white">
+            <div class="row">
+                <div class="col-3 text-center  fw-bold">
+                    <div class="info-footer">
+                        <p>index</p>
+                    </div>
+                </div>
+                <div class="col-3 text-center fw-bold">
+                    <div class="info-footer">
+                        <p>Website Name	</p>
+                    </div>
+                </div>
+                <div class="col-3 text-center fw-bold">
+                    <div class="info-footer">
+                        <p>Visit</p>
+                    </div>
+                </div>
+                <div class="col-3 text-center fw-bold">
+                    <div class="info-footer">
+                        <p>Delete</p>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+        
+        <div class="container foot mb-5 bg-white">
+            <div class="row" id="myRow">
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/index.js" ></script>
+</body>
+</html>
